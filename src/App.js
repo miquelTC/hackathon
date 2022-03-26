@@ -1,8 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { Fragment } from "react";
+
+import { Header } from "./components/Header/Header";
+import { Main } from "./components/Main/Main";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <Fragment>
+      <Header />
+
+      <Main />
+    </Fragment>
+  );
 }
 
 export default App;

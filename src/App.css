@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #566885;
+}
+
+body {
+  background-color: #e9e6e6;
+}
+#root {
+  width: 100%;
+}
